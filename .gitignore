@@ -176,3 +176,6 @@ dist
 
 # Built natives
 /out
+
+# Hashes
+/.bunative/hash

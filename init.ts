@@ -4,6 +4,7 @@ import clangConfig from './src/c/build';
 
 plugin(
   clang({
+    verbosity: 'vvv',
     buildConfig: clangConfig,
   })
 );
