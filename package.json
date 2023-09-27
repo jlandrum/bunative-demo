@@ -1,0 +1,15 @@
+{
+  "name": "bunative-dev",
+  "module": "index.ts",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "bunative": "^0.0.1",
+    "colors": "^1.4.0"
+  }
+}
