@@ -11,7 +11,7 @@ plugin(
 );
 plugin(
   konan({
-    verbosity: 'vvvv',
+    verbosity: 'vvv',
     buildConfig: konanConfig,
   })
 );

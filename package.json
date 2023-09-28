@@ -9,7 +9,7 @@
   },
   "type": "module",
   "dependencies": {
-    "bunative": "^0.0.6",
+    "bunative": "^0.0.8",
     "colors": "^1.4.0"
   }
 }
