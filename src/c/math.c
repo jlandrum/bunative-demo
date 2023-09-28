@@ -25,3 +25,33 @@ int fibonacci(int n)
 
   return fib[n - 1];
 }
+
+int isPrime(int num)
+{
+  if (num <= 1)
+    return 0;
+
+  for (int i = 2; i * i <= num; i++)
+  {
+    if (num % i == 0)
+      return 0;
+  }
+
+  return 1;
+}
+
+int countPrimes(int n)
+{
+  int count = 0;
+  int num = 2;
+  
+  for (; count < n; num++)
+  {
+    if (isPrime(num))
+    {
+      count++;
+    }
+  }
+
+  return num;
+}

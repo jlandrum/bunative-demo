@@ -12,4 +12,4 @@ export default {
     out: "./out/math.o",
     useHeader: "./math.h",
   },
-} as NativeModuleConfigSet;
+} as NativeModuleConfigSet<ClangNativeModule>;

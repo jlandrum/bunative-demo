@@ -5,5 +5,7 @@ int add(int a, int b);
 int sub(int a, int b);
 float div(float a, float b);
 int fibonacci(int n);
+bool isPrime(int n);
+int countPrimes(int n);
 
 #endif
