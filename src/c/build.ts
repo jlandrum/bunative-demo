@@ -2,7 +2,7 @@ import { ClangNativeModule, NativeModuleConfigSet } from "bunative";
 
 export default {
   global: {
-    optimize: 0,
+    optimize: 3,
     libraries: [],
     frameworks: [],
     debug: false,
@@ -11,7 +11,7 @@ export default {
     additionalSources: [],
   },
   "math.c": {
-    out: "./out/math.o",
+    out: "./out/c_math.o",
     useHeader: "./math.h",
   },
 } as NativeModuleConfigSet<ClangNativeModule>;
