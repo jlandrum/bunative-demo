@@ -53,5 +53,5 @@ int countPrimes(int n)
     }
   }
 
-  return num;
+  return num-1;
 }

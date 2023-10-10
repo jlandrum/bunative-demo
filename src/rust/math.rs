@@ -40,6 +40,6 @@ pub extern "C" fn count_primes(n: u32) -> u32 {
         }
         num += 1;
     }
-    return num;
+    return num - 1;
 }
 

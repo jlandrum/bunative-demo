@@ -29,5 +29,5 @@ fun k_countPrimes(n: Int): Int {
         num++
     }
 
-    return num
+    return num - 1
 }

@@ -22,12 +22,12 @@ function js_countPrimes(n: number) {
     }
     num++;
   }
-  return num;
+  return num-1;
 }
 
 console.log(c.blue.bold('== Performance Tests =='));
 
-[10, 100, 1000, 10000].forEach((count) => {
+[10000,1000,100,10].forEach((count) => {
   console.time(c.green(`Bun: Calculated primes up to ${count}`));
   const jsprimes = js_countPrimes(count).toString();
   console.timeEnd(c.green(`Bun: Calculated primes up to ${count}`));

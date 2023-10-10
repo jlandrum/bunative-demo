@@ -7,4 +7,5 @@ export default {
     additionalSources: [],
   },
   "math.rs": {},
+  "primesieve.rs": {},
 } as NativeModuleConfigSet<RustNativeModule>;
