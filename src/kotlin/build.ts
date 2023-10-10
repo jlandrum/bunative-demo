@@ -1,3 +1,5 @@
+import { NativeModuleConfigSet, KonanNativeModule } from "bunative";
+
 export default {
   global: {
     optimize: true,

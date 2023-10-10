@@ -1,3 +1,5 @@
+import { ClangNativeModule, NativeModuleConfigSet } from "bunative";
+
 export default {
   global: {
     optimize: 0,

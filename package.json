@@ -7,6 +7,9 @@
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
+  "scripts": {
+    "test": "bun index.ts"
+  },
   "type": "module",
   "dependencies": {
     "bunative": "^0.0.8",
