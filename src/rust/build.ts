@@ -2,7 +2,7 @@ import { NativeModuleConfigSet, RustNativeModule } from "bunative";
 
 export default {
   global: {
-    optimize: 3,
+    optimize: 0,
     debug: false,
     additionalSources: [],
   },

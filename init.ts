@@ -18,7 +18,7 @@ plugin(
 );
 plugin(
   rust({
-    verbosity: 'vvv',
+    verbosity: 'vvvv',
     buildConfig: rustConfig,
   })
 );
